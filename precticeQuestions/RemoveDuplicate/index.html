@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Duplecates from array</title>
+</head>
+<body>
+    <script>
+        var array=[1,1,2,3,1,4,2,5,3,4,5,3,4,5,5,3,67,7,8,5];
+
+var arr=[];
+
+array.forEach((e)=>{
+    if(!arr.includes(e)){
+        arr.push(e);
+    }
+    
+});
+document.write(array+"<br/>");
+    document.write(arr);
+    </script>
+</body>
+</html>
